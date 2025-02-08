@@ -1,1 +1,14 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/khVSkjrs)
+**Name:** Hans Dean DV. Guzman <br/>
+**Section:** C-4L <br/>
+**Degree Program:** BS Computer Science <br/>
+
+## Live Website Link
+https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-HD-Guzman/
+
+## Github Page Creation Steps
+- Push into the repository your html file with the filename "index.html"
+- Set repository to public (default)
+- Build the page from the main branch in Settings -> Pages
+
+## Key Takeaways
+- I have rekindled my burning hatred with html and css. It is very hard to debug these languages since they do not give errors and feedback like programming languages do. I am also very bad at using these languages since I am not very good at visual design. I hope to improve this as I go through this course. 
