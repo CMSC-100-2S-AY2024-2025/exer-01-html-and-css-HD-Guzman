@@ -1,18 +1,122 @@
 #navbar {
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #19cccf;
-  color: white;
-  border: 1px solid navy;
-  margin: 10px;
-  height: 100px;
-  width: 2000px;
+  flex: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-right: 10px;
+  background-color: #d0cdbf;
+  color: rgb(83, 80, 80);
+  border: 1px solid black;
+  height: 150px;
 }
 
-#navbar {
-  display: flex;
-  align-items: center;
+.navbutton {
+  display: flex; 
+  background-color: rgb(224, 234, 217);
+  color: rgb(104, 97, 97);
+  border-radius: 10%;
   justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+#featured {
+  display: flex;
+  color: rgb(85, 71, 71);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#featured_photo {
+  width: 700px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+#projects {
+  display: flex;
+  flex: 100%;
+  color: rgb(85, 71, 71);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px; 
+}
+
+#project_row {
+  display: flex;
+  color: rgb(85, 71, 71);
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  gap: 200px;
+}
+
+.project_photo {
+  width: 300px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+#project_labels {
+  display: flex;
+  color: rgb(85, 71, 71);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 10px;
+  gap: 200px;
+}
+
+#about_labels {
+  display: flex;
+  color: rgb(85, 71, 71);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 10px;
+  gap: 500px;
+}
+
+#about {
+  display: flex;
+  color: rgb(85, 71, 71);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px; 
+}
+
+#about_row {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 250px;
+}
+
+.descriptions{
+  border: 1px solid black;
+  width: 400px;
+}
+
+#footer {
+  display: flex;
+  flex: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-right: 10px;
+  background-color: #d0cdbf;
+  color: rgb(83, 80, 80);
+  border: 1px solid black;
+  height: 150px;
+}
+
+#footer_info h3{
+  display: flex;
+  flex-direction: column;
+
 }
