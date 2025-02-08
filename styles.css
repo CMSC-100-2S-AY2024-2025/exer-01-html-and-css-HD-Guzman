@@ -1,3 +1,7 @@
+h1 {
+  font-size: 50px;
+}
+
 #navbar {
   display: flex;
   flex: 100%;
@@ -48,28 +52,19 @@
 
 #project_row {
   display: flex;
+  width: 100%;
   color: rgb(85, 71, 71);
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 10px;
-  gap: 200px;
 }
 
 .project_photo {
-  width: 300px;
-  height: auto;
+  width: auto;
+  max-height: 200px;
   border: 2px solid black;
   border-radius: 5%;
-}
-
-#project_labels {
-  display: flex;
-  color: rgb(85, 71, 71);
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 10px;
-  gap: 200px;
+  margin-right: 50px;
 }
 
 #about_labels {
@@ -101,6 +96,7 @@
 .descriptions{
   border: 1px solid black;
   width: 400px;
+  padding: 10px;
 }
 
 #footer {
